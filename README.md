@@ -18,4 +18,6 @@ This project used pretrained model RetinaNet of fizyr for thoracic lung diseases
 ![img_1](image_in_markdown/Image_before_after.png)
 
 ### 2. RetinaNet model
+- RetinaNet Architecture
+![img_2](image_in_markdown/retinanet.png)
 
