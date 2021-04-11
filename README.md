@@ -1,8 +1,8 @@
 # Chest_Xray_Detection
 This project used pretrained model RetinaNet of fizyr for thoracic lung diseases detection
-> Link dataset: https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection
->> Link: https://github.com/fizyr/keras-retinanet
->>> This project is described is more detail in project_analysis folder
+>Link dataset: https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection
+>Link: https://github.com/fizyr/keras-retinanet
+>This project is described is more detail in project_analysis folder
 ### 1. Non Maximum Suppression (NMS), Soft Non Maximum Suppression (Soft - NMS) and Weighted Boxes fusion (WBF)
 ||      Number of Boxes      | 
 |----------|:-------------:|
