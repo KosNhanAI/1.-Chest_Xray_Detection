@@ -12,7 +12,7 @@ This project used pretrained model RetinaNet of fizyr for thoracic lung diseases
 | Soft - NMS | 32,273 |
 |WBF | 23,955|
 
-> Base on the result and algorithm of these techniques. I selected WBF > 
+Base on the result and algorithm of these techniques. I selected WBF 
 
 **Before and after apply WBF**
 ![img_1](image_in_markdown/Image_before_after.png)
@@ -37,3 +37,14 @@ This project used pretrained model RetinaNet of fizyr for thoracic lung diseases
 |MobileNet 160| 0.00053      | 28 mins        | 134 MB       |
 |MobileNet 128|0.00062       | 25 mins        | 120 MB       | 
 
+#### 2.2 Image's size tuning
++ Number of classes: 14 classes
++ Epochs: 6
++ learning rate: 1×10-5
++ Backbone: RestNet 101
+
+|  Image's size |  mAP |  Computational Cost|Size of mode |
+|---|---|---|---|
+|800 x 800 | 0.10866| 49 mins   | 246 MB    | 
+|  900 x 900 |   0.1102  |  57 mins   |  246 MB    |   
+| 1000 x 1000|  0.1071| 68 mins        | 246 MB       |
