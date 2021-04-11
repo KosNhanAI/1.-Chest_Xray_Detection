@@ -16,4 +16,6 @@ This project used pretrained model RetinaNet of fizyr for thoracic lung diseases
 
 **Before and after apply WBF**
 ![img_1](image_in_markdown/Image_before_after.png)
-### 2. 
+
+### 2. RetinaNet model
+
