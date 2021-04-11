@@ -22,6 +22,14 @@ This project used pretrained model RetinaNet of fizyr for thoracic lung diseases
 ![img_2](image_in_markdown/retinanet.png)
 
 - Backbone
+|  Backbone |  mAP |  Computational Cost|Size of mode |
+|---|---|---|---|---|
+| RestNet 50  | 0.0415   | 40 mins   | 246 MB    | 
+|  RestNet 101 |   0.10866  |  53 mins   |  321 MB    |   
+| RestNet 152|0.0131         | 63 mins        | 383 MB       |
+|MobileNet 160| 0.00053      | 28 mins        | 134 MB       |
+|MobileNet 128|0.00062       | 25 mins        | 120 MB       | 
+
 |Backbone|      mAP    | Computational Cost| Size of model| 
 |------------|-------------| -------------|-------------|
 | RestNet 50 | 0.0415        | 40 mins        | 246 MB       | 
