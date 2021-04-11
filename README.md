@@ -21,7 +21,12 @@ This project used pretrained model RetinaNet of fizyr for thoracic lung diseases
 - RetinaNet Architecture
 ![img_2](image_in_markdown/retinanet.png)
 
-- Backbone
+#### 2.1 Backbone tuning
++ Number of classes: 14 classes
++ Epochs: 6
++ learning rate: 1×10-5
++ Image’s size: 800x800
+
 
 
 |  Backbone |  mAP |  Computational Cost|Size of mode |
